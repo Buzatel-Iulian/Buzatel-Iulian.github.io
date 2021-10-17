@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+#fancy-bg {
+	font-family:'Oswald',cursive;
+	font-size:6vw;
+	background-image:url(Images/grey-brick.jpg);
+	color:#e6e6e6;
+	border:2px solid #e6e6e6;
+	}
