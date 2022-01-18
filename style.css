@@ -5,6 +5,25 @@ body {
 	background-attachment: fixed;
 	}
 
+div.surr {
+	background-color: lightgrey;
+	width: 50%;
+	border: 5px solid green;
+	padding: 55px;
+	margin: auto;
+	/*clear: both;*/
+	display: flex;
+}
+div.inn {
+	background-color: lightgrey;
+	/*width: auto;*/
+	border: 5px solid green;
+	padding: 5px;
+	margin: auto;
+	/*float: left;
+	display: block;*/
+}
+
 #fancy-bg {
 	font-family:'Alfa Slab One',cursive;
 	font-size:2vw;
