@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 
 body {
 	background-image: url(Images/grey-brick-m.jpg);
@@ -6,23 +8,43 @@ body {
 	}
 
 div.surr {
-	background-color: lightgrey;
-	width: 50%;
-	border: 5px solid green;
-	padding: 55px;
-	margin: auto;
-	/*clear: both;*/
-	display: flex;
-}
-div.inn {
-	background-color: lightgrey;
-	/*width: auto;*/
+	background: rgba(224, 224, 209, 0.2);
+	width: 500px;
 	border: 5px solid green;
 	padding: 5px;
 	margin: auto;
+	/*clear: both;*/
+	display: flex;
+	justify-content: center;
+}
+div.inn {
+	/*background: rgba(224, 224, 209, 0.2);
+	/*width: auto;
+	border: 9px solid green;*/
+	padding: 10px;
+	height: 30%;
+	/*margin: 2vw;
 	/*float: left;
 	display: block;*/
 }
+
+.profile-img{
+	width:40%;
+	height:40%;
+	/*margin: 2vw;*/
+	}
+
+.content1{
+	font-family:'Oswald',sans-serif;
+	font-size:150%;
+	color:#e0e0d1;
+	}
+
+.title1 {
+	font-family:'Prata',serif;
+	font-size:250%;
+	color:#ccccb3;
+	}
 
 #fancy-bg {
 	font-family:'Alfa Slab One',cursive;
