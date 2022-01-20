@@ -13,9 +13,9 @@ div.ful-page {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	min-height: 100vh;
+	min-height: 97vh;
 	}
-div.surr {
+.page-surr {
 	background: rgba(224, 224, 209, 0.2);
 	width: 50%;
 	border: 2px solid #001a33;
@@ -24,8 +24,9 @@ div.surr {
 	/*clear: both;*/
 	display: flex;
 	justify-content: center;
+	position: fixed;
 }
-div.inn {
+.inn {
 	/*background: rgba(224, 224, 209, 0.2);
 	/*width: auto;
 	border: 9px solid green;*/
