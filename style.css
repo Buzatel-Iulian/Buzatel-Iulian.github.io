@@ -37,8 +37,11 @@ div.ful-page {
 .page-surr {
 	background: rgba(224, 224, 224, 0.4);
 	width: auto;
-	max-width: 70%;
-	max-height: 30%;
+	/*max-width: 70%;
+	max-height: 40%;*/
+	overflow:auto;
+	clear:both;
+
 	border: 0.3vw solid #001a33;
 	padding: 5px;
 	margin: auto;
@@ -64,6 +67,8 @@ div.ful-page {
 .profile-img{
 	width:15vw;
 	height:15vw;
+	/*background-image: url(Images/profile_pic.jpg);
+	background-size: contain;*/
 	border-radius: 50%;
 	margin: 0.3vw;
 	padding: 0.3vw;
