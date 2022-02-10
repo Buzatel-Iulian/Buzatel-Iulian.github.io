@@ -1,4 +1,6 @@
 var header = document.getElementById('surr');
+var scrollToTopBtn = document.getElementById("home-button");
+var rootElement = document.documentElement;
 
 function fadeOutOnScroll(element) {
 	if (!element) {
@@ -28,4 +30,13 @@ function scrollHandler() {
 	fadeOutOnScroll(header);
 }
 
+function scrollToTop() {
+	// Scroll to top logic
+	rootElement.scrollTo({
+		top: 0,
+		behavior: "smooth"
+	});
+}
+
+scrollToTopBtn.addEventListener("click", scrollToTop);
 window.addEventListener('scroll', scrollHandler);

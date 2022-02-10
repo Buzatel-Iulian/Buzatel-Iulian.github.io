@@ -18,7 +18,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-	background-color: rgba(0, 26, 51, 1);    /* color of the scroll thumb */
+	background-color: #001a33;    /* color of the scroll thumb */
 	/*border-radius: 20px;       /* roundness of the scroll thumb */
 	/*border: 3px solid orange;  /* creates padding around scroll thumb */
 }
@@ -27,7 +27,7 @@ body::-webkit-scrollbar-thumb {
 	width: 80%;
 	height: 5%;
 	
-	background: rgba(0, 26, 51, 1);
+	background: #001a33;
 	position: fixed;
 	left: 50%;
 	transform: translate(-50%, 0);
@@ -38,19 +38,33 @@ body::-webkit-scrollbar-thumb {
 }
 
 .left-stick {
-	width: 2%;
+	width: 1.5%;
 	height: 10%;
-	
-	background: rgba(0, 26, 51, 1);
+	transition: width 0.2s ease-out 5ms;	
+	background: #001a33;
 	position: fixed;
 	top: 50%;
-	/*left: 1.5%;*/
-	transform: translate(-50%, -50%);
+	left: 0%;
+	transform: translate(0%, -50%);
 	display:flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 	}
+
+.left-stick:hover {
+	width: 3%;
+	}
+
+#home-button {
+    	background-color: rgba(0, 0, 0, 0);
+    	/*display: block;
+    	margin: 10px 0;
+    	padding: 10px;*/
+	border: none;
+	height: 100%;
+    	width: 100%;
+}
 
 div.ful-page {
 	/*width:100%;
