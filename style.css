@@ -52,8 +52,17 @@ body::-webkit-scrollbar-thumb {
 	text-align: center;
 	}
 
+.home-icon {
+	height: 80%;
+	width: 1vw;
+	}
+
 .left-stick:hover {
 	width: 3%;
+	}
+
+.left-stick:hover .home-icon {
+	width: 3vw;
 	}
 
 #home-button {
