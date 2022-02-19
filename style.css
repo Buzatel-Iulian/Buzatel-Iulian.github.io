@@ -38,6 +38,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .left-stick {
+	border: none;
+	margin: none;
 	width: 1.5%;
 	height: 10%;
 	transition: width 0.2s ease-out 5ms;	
@@ -52,28 +54,22 @@ body::-webkit-scrollbar-thumb {
 	text-align: center;
 	}
 
-.home-icon {
+#home-icon {
 	height: 80%;
 	width: 1vw;
+	border: none;
+	margin: none;
+	transition: width 0.2s ease-out;
 	}
 
 .left-stick:hover {
 	width: 3%;
 	}
 
-.left-stick:hover .home-icon {
+.left-stick:hover #home-icon {
+	transition-delay: 300ms;
 	width: 3vw;
 	}
-
-#home-button {
-    	background-color: rgba(0, 0, 0, 0);
-    	/*display: block;
-    	margin: 10px 0;
-    	padding: 10px;*/
-	border: none;
-	height: 100%;
-    	width: 100%;
-}
 
 div.ful-page {
 	/*width:100%;

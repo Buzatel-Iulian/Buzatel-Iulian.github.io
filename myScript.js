@@ -1,5 +1,5 @@
 var header = document.getElementById('surr');
-var scrollToTopBtn = document.getElementById("home-button");
+var scrollToTopBtn = document.getElementById("home-icon");
 var rootElement = document.documentElement;
 
 function fadeOutOnScroll(element) {
