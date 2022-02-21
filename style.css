@@ -83,7 +83,7 @@ body::-webkit-scrollbar-thumb {
 	width: 1.5%;
 	height: 10%;
 	transition: width 0.2s ease-out 5ms;	
-	background: rgba(0, 26, 51, 0.8);
+	background: rgba(0, 26, 51, 1.0);
 	position: fixed;
 	top: 50%;
 	left: 0%;
@@ -121,7 +121,7 @@ div.ful-page {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	min-height: 97vh;
+	min-height: 99vh;
 	}
 
 .bg-overlay {
@@ -157,8 +157,8 @@ div.ful-page {
 }
 
 .page-surr {
-	background: rgba(224, 224, 224, 0.8);
-	width: auto;
+	background: rgba(0, 26, 51, 0.8);
+	width: 80vw;
 	/*max-width: 70%;
 	max-height: 40%;*/
 	overflow:auto;
@@ -173,7 +173,6 @@ div.ful-page {
 	align-items: center;
 	flex-wrap: nowrap;
 	justify-content: center;
-	position: fixed;
 }
 
 .inn {
@@ -187,6 +186,17 @@ div.ful-page {
 	/*float: left;
 	display: block;*/
 }
+
+.project-img{
+	width:35vw;
+	height:auto;
+	/*background-image: url(Images/profile_pic.jpg);
+	background-size: contain;*/
+	border-radius: 3%;
+	margin: 0.3vw;
+	padding: 0.3vw;
+	/*border: 0.3vw solid #001a33;*/
+	}
 
 .profile-img{
 	width:15vw;
