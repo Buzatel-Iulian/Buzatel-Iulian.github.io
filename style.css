@@ -21,6 +21,7 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
 	background-color: #001a33;    /* color of the scroll thumb */
+	-webkit-box-shadow: 4px 3px 8px 1px rgba(0, 0, 51, 0.8); 
 	/*border-radius: 20px;       /* roundness of the scroll thumb */
 	/*border: 3px solid orange;  /* creates padding around scroll thumb */
 }
@@ -37,7 +38,11 @@ body::-webkit-scrollbar-thumb {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	-webkit-mask-image: linear-gradient(90deg, transparent 5%, rgba(0, 0, 0, 1) 52%, rgba(0, 0, 0, 1) 44%, transparent 95%);
+	border-right: 0.3vw solid #001a33;
+	border-left: 0.3vw solid #001a33;
+	box-shadow: 4px 3px 8px 1px rgba(0, 0, 51, 0.8);	
+	/*-webkit-mask-image: linear-gradient(90deg, transparent 5%, rgba(0, 0, 0, 1) 52%, rgba(0, 0, 0, 1) 44%, transparent 95%);
+*/
 }
 
 #navbar:hover {
@@ -51,7 +56,7 @@ body::-webkit-scrollbar-thumb {
 	font-size: 1.3vw;
 	width: 2vw;
 	
-	transition: height 0.2s ease-out 5ms, font-size 0.2s ease-out 5ms, width 0.2s ease-out 5ms;
+	transition: background 0.2s ease-out 5ms, height 0.2s ease-out 5ms, font-size 0.2s ease-out 5ms, width 0.2s ease-out 5ms;
 	height: 1vw;
 	text-align: center;
 	text-decoration: none;
@@ -66,13 +71,21 @@ body::-webkit-scrollbar-thumb {
 	}
 
 .fa-linkedin {
-	background: #007bb5;
+	/*background: #007bb5;*/
 	color: white;
 	}
 
+.fa-linkedin:hover {
+	background: #007bb5;
+	}
+
 .fa-github {
-	background: #000000;
+	/*background: #000000;*/
 	color: white;
+	}
+
+.fa-github:hover {
+	background: #000000;
 	}
 
 /* =============================================================== */
@@ -143,7 +156,7 @@ div.ful-page {
 	max-height: 40%;*/
 	overflow:auto;
 	clear:both;
-
+	box-shadow: inset 4px 3px 8px 1px rgba(0, 0, 51, 0.5);
 	border: 0.3vw solid #001a33;
 	padding: 5px;
 	margin: auto;
@@ -157,14 +170,16 @@ div.ful-page {
 }
 
 .page-surr {
-	background: rgba(0, 26, 51, 0.8);
-	width: 80vw;
+	background: rgba(224, 224, 224, 0.9);
+	width: 80%;
 	/*max-width: 70%;
 	max-height: 40%;*/
 	overflow:auto;
 	clear:both;
-
-	border: 0.3vw solid #001a33;
+	border-top: 0.1vw solid #001a33;
+	border-bottom: 0.1vw solid #001a33;
+	border-right: 0.3vw solid #001a33;
+	border-left: 0.3vw solid #001a33;
 	padding: 5px;
 	margin: auto;
 	/*clear: both;*/
@@ -173,6 +188,7 @@ div.ful-page {
 	align-items: center;
 	flex-wrap: nowrap;
 	justify-content: center;
+	box-shadow: inset 4px 3px 8px 1px rgba(0, 0, 51, 0.5);
 }
 
 .inn {
@@ -194,7 +210,8 @@ div.ful-page {
 	background-size: contain;*/
 	border-radius: 3%;
 	margin: 0.3vw;
-	padding: 0.3vw;
+	padding: 0.0vw;
+	box-shadow: 4px 3px 8px 1px rgba(0, 0, 51, 0.5);
 	/*border: 0.3vw solid #001a33;*/
 	}
 
@@ -207,6 +224,7 @@ div.ful-page {
 	margin: 0.3vw;
 	padding: 0.3vw;
 	border: 0.3vw solid #001a33;
+	box-shadow: 4px 3px 8px 1px rgba(0, 0, 51, 0.5);
 	}
 
 .content1{
