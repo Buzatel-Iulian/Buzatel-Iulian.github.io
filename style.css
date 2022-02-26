@@ -49,13 +49,13 @@ body::-webkit-scrollbar-thumb {
 	height: 8%;
 }
 
-/* =============================================================== */
+/* = fa - icons ================================================== */
 
 .fa {
 	padding: 0.4vw;
 	font-size: 1.3vw;
 	width: 2vw;
-	
+	border-radius: 7%;
 	transition: background 0.2s ease-out 5ms, height 0.2s ease-out 5ms, font-size 0.2s ease-out 5ms, width 0.2s ease-out 5ms;
 	height: 1vw;
 	text-align: center;
@@ -107,21 +107,29 @@ body::-webkit-scrollbar-thumb {
 	text-align: center;
 	}
 
-#home-icon {
-	height: 80%;
-	width: 1vw;
-	border: none;
-	margin: none;
-	transition: width 0.2s ease-out;
-	}
-
 .left-stick:hover {
 	width: 3%;
 	}
 
-.left-stick:hover #home-icon {
-	transition-delay: 300ms;
-	width: 3vw;
+.spacer {
+	padding: 1.0vw;
+	}
+
+#home-icon {
+	height: 1.5vw;
+	width: 1.5vw;
+	border: 0.2vw solid #ffffff;
+	border-radius: 50%;
+	margin: none;
+	padding: 0vw;
+	transition: height 0.2s ease-out 5ms, padding 0.2s ease-out 5ms, width 0.2s ease-out 5ms;
+	
+	}
+
+#home-icon:hover {
+	height: 2.5vw;
+	width: 2.5vw;
+	padding: 0.3vw;
 	}
 
 .content {
