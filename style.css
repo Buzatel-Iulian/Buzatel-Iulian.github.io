@@ -90,6 +90,21 @@ body::-webkit-scrollbar-thumb {
 
 /* =============================================================== */
 
+#end-note {
+	/*width: 100%;*/
+	padding: none;
+	margin: none;
+	color: #ffffff;
+	font-size: 1.5vw;	
+	background: #001a33;
+	align-items: center;
+	flex-wrap: nowrap;
+	justify-content: center;
+	text-align: center;
+	font-family:'Oswald',sans-serif;
+	/*transform: translate(-1vw, 0);*/
+}
+
 .left-stick {
 	border: none;
 	margin: none;
@@ -111,8 +126,8 @@ body::-webkit-scrollbar-thumb {
 	width: 3%;
 	}
 
-.spacer {
-	padding: 1.0vw;
+hr.solid {
+	width: 90%;
 	}
 
 #home-icon {
@@ -130,6 +145,12 @@ body::-webkit-scrollbar-thumb {
 	height: 2.5vw;
 	width: 2.5vw;
 	padding: 0.3vw;
+	}
+
+pre.art {
+	font-size:0.6vw;
+	color:#001a33;
+	white-space: pre;
 	}
 
 .content {
@@ -186,8 +207,8 @@ div.ful-page {
 	width: 80%;
 	/*max-width: 70%;
 	max-height: 40%;*/
-	overflow:auto;
-	clear:both;
+	/*overflow:auto;
+	clear:both;*/
 	border-top: 0.1vw solid #001a33;
 	border-bottom: 0.1vw solid #001a33;
 	border-right: 0.3vw solid #001a33;
@@ -195,12 +216,35 @@ div.ful-page {
 	padding: 5px;
 	margin: auto;
 	/*clear: both;*/
-	display: flex;
+	/*display: flex;*/
 	/*display: block; for phone use */
 	align-items: center;
 	flex-wrap: nowrap;
 	justify-content: center;
 	box-shadow: inset 4px 3px 8px 1px rgba(0, 0, 51, 0.5);
+}
+
+.frame-surr {
+	/*background: rgba(224, 224, 224, 0.9);
+	width: 80%;
+	/*max-width: 70%;
+	max-height: 40%;*/
+	overflow:auto;
+	clear:both;
+	/*border-top: 0.1vw solid #001a33;
+	border-bottom: 0.1vw solid #001a33;
+	border-right: 0.3vw solid #001a33;
+	border-left: 0.3vw solid #001a33;
+	padding: 5px;
+	margin: auto;
+	/*clear: both;*/
+	padding: 1vw;
+	display: flex;
+	/*display: block; for phone use */
+	align-items: center;
+	flex-wrap: nowrap;
+	justify-content: center;
+	/*box-shadow: inset 4px 3px 8px 1px rgba(0, 0, 51, 0.5);*/
 }
 
 .inn {
@@ -220,11 +264,11 @@ div.ful-page {
 	height:auto;
 	/*background-image: url(Images/profile_pic.jpg);
 	background-size: contain;*/
-	border-radius: 3%;
+	/*border-radius: 3%;*/
 	margin: 0.3vw;
 	padding: 0.0vw;
-	box-shadow: 4px 3px 8px 1px rgba(0, 0, 51, 0.5);
-	/*border: 0.3vw solid #001a33;*/
+	/*box-shadow: 4px 3px 8px 1px rgba(0, 0, 51, 0.5);
+	border: 0.1vw solid #001a33;*/
 	}
 
 .profile-img{
