@@ -130,6 +130,10 @@ hr.solid {
 	width: 90%;
 	}
 
+.spacer {
+	padding: 2vw;
+	}
+
 #home-icon {
 	height: 1.5vw;
 	width: 1.5vw;
