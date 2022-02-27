@@ -133,6 +133,10 @@ body::-webkit-scrollbar-thumb {
 	}
 
 .content {
+	font-family:'Oswald',sans-serif;
+	font-size:1.5vw;
+	color:#001a33;
+
 	}
 
 div.ful-page {
